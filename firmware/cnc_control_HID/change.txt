@@ -1,0 +1,10 @@
+Изменить:
+
+usbd_conf.h
+
+#define USBD_SUPPORT_USER_STRING     1U
+
+usbd_customhid.h
+
+#define CUSTOM_HID_EPIN_SIZE                 64
+#define CUSTOM_HID_EPOUT_SIZE                64
